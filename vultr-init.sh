@@ -2,7 +2,7 @@
 sudo ufw disable
 sudo systemctl stop ufw
 sudo systemctl disable ufw
-
+## curl https://raw.githubusercontent.com/liukunpeng-me/test/refs/heads/main/vultr-init.sh |bash
 set -euo pipefail
 
 # 清理临时文件
