@@ -1,4 +1,8 @@
 #!/bin/bash
+sudo ufw disable
+sudo systemctl stop ufw
+sudo systemctl disable ufw
+
 set -euo pipefail
 
 # 清理临时文件
